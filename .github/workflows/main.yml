@@ -92,7 +92,7 @@ jobs:
           # plugin_repositories_order: featured, pinned, starred, random
           # plugin_repositories_pinned: 6
       - name: Achievements
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
