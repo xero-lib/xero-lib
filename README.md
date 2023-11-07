@@ -1,2 +1,3 @@
 ### Howdy howdy! 👋
-![Metrics](/github-metrics.svg)
+![Metrics](/general.svg)
+
