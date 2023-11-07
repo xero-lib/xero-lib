@@ -11,6 +11,8 @@ on:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: 🦑 Medias
         uses: lowlighter/metrics@latest
