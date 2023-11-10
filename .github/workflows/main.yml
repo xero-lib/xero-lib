@@ -25,9 +25,6 @@ jobs:
           committer_gist: ${{ secrets.GIST }}
           plugin_achievements: yes
           plugin_achievements_display: detailed
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons
           plugin_fortune: yes
 
       - name: General
@@ -49,4 +46,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_notable: yes
           plugin_discussions: yes
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
           
