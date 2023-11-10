@@ -45,7 +45,7 @@ jobs:
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, scala, python, ejs, renderscript, render_script, jupyter, jupyter notebook, jupyter_notebook
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_sections: most-used, recently-used
-          plugin_languages_limit: 8
+          plugin_languages_limit: 4
           plugin_languages_indepth: yes
           plugin_notable: yes
           plugin_discussions: yes
