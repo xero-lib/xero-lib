@@ -16,7 +16,7 @@ jobs:
     steps:
 
       - name: Achievements
-        uses: lowlighter/metrics@latestt
+        uses: lowlighter/metrics@latest
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
