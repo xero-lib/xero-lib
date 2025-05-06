@@ -16,7 +16,8 @@ jobs:
     steps:
 
       - name: Achievements
-        uses: lowlighter/metrics@latest
+        # temporary solution
+        uses: stalomeow/metrics@edcae0f874d69e509d25ddd5e750a2f41cd54e10
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
